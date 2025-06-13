@@ -26,6 +26,8 @@ Install required libraries with:
 ```bash
 pip install numpy matplotlib scikit-image plotly pandas biopython
 
+----
+
 **Input**
 A single grayscale PNG image file named:
 
@@ -36,12 +38,16 @@ This image should contain clearly visible replication foci (bright spots).
 
 **If your image is RGB, it will be automatically converted to grayscale**
 
+----
+
 **How to Run the Script**
 Save your image as replication_foci.png in the project directory.
 
 Run the Python script:
 
 python analyze_replication_foci.py
+
+----
 
 **Output**
 A 3D interactive scatter plot of replication foci will open in your web browser.
@@ -52,6 +58,8 @@ label	area	mean_intensity	centroid-0	centroid-1
 1	120	0.84	105.2	310.3
 2	98	0.79	250.7	390.1
 ...	...	...	...	...
+
+-----
 
 **Test with Simulated Data (No Real Image Required)**
 Paste the code below into a Python script to generate a fake sample image:
@@ -68,7 +76,7 @@ for center in [(100, 100), (300, 200), (400, 400)]:
 
 imsave("replication_foci.png", img)
 Then run the main script to test it.
-
+ -----
 **Notes** 
 This version supports 2D single-slice images only.
 
