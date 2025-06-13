@@ -3,6 +3,7 @@
 **Author
 Anwesha Sarkar**
 
+## Example Image : DOI:10.1007/s10577-009-9105-3
 # eplication Foci Analysis Toolkit (2D Microscopy Images)
 
 This project is a simple Python-based pipeline to analyze DNA replication foci from grayscale 2D microscopy images (e.g., PNG or TIFF format). It performs segmentation of foci, extracts relevant spatial features, and generates an interactive 3D plot for visual exploration.
